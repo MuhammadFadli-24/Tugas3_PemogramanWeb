@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+     text-align: center;
+}
+
+.TombolBarAtas {
+    background-color: rgb(9, 141, 141);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+a:hover {
+    border-bottom: solid 3px black;
+}
+
+.Nama {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Navigation a {
+    text-decoration: none;
+    color :white
+}
+
+.Navigation {
+    list-style :none;
+    display: flex;
+    gap: 40px;
+    
+}
+
+.Judulkontak {
+    text-align: center;
+    color: rgb(9, 141, 141);
+}
+
+.Formulir {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    width: 300px;
+    margin: 50px auto; 
+}
+
+.email {
+    margin-bottom: 20px;
+}
+
+.nama {
+    margin-bottom: 20px;
+}
+
+.Formulir input,
+.Formulir textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.Formulir button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width: 25%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Formulir button:hover {
+    background-color: #0056b3;
+}

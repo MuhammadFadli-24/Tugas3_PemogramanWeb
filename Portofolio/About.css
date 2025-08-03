@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+.TombolBarAtas {
+    background-color: rgb(9, 141, 141);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+a:hover {
+    border-bottom: solid 3px black;
+}
+
+.Nama {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Navigation a {
+    text-decoration: none;
+    color :white
+}
+
+.Navigation {
+    list-style :none;
+    display: flex;
+    gap: 40px;
+    
+}
+
+.About {
+    text-align: center;
+}
+
+
+.Title {
+    color: rgb(9, 141, 141);
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-top: 90px;
+}
+
+.Gambar {
+    margin-right: -30px;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+}

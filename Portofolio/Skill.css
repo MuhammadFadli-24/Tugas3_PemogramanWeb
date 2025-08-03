@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+.TombolBarAtas {
+    background-color: rgb(9, 141, 141);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+a:hover {
+    border-bottom: solid 3px black;
+}
+
+.Nama {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Navigation a {
+    text-decoration: none;
+    color :white
+}
+
+.Navigation {
+    list-style :none;
+    display: flex;
+    gap: 40px;
+    
+}
+
+.TulisanSkill {
+    text-align: center;
+    color: rgb(9, 141, 141);
+} 
+
+.SkillContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 900px;
+    margin: 40px auto;
+    gap: 40px;
+}
+
+.SkillLeft {
+    flex: 1;
+}
+
+.SkillLeft h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.SkillLeft p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.skill-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+.skill-bar span {
+    width: 80px;
+    font-weight: bold;
+}
+
+.bar {
+    background: #ddd;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background: rgb(9, 141, 141);
+    border-radius: 5px;
+}
+
+.percent {
+    width: 40px;
+    text-align: right;
+}
+
+.SkillRight img {
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
